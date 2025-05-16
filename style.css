@@ -102,18 +102,59 @@ body {
   width: 50%;
   vertical-align: middle;
   padding-left: 8px; /* reduced from 12px */
+  text-align: center; /* center heading and text */
 }
 
 .info-text h3 {
   margin-top: 0;
   color: #159ca6;
   font-size: 1.6em;
+  text-align: center; /* ensure heading is centered */
 }
 
 .info-text p {
   font-size: 1.1em;
   color: #11525c;
   margin-bottom: 0;
+  text-align: center; /* ensure paragraph is centered */
+}
+
+/* Testimonials section */
+.testimonials {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f4fcfd;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.testimonials h3 {
+  color: #159ca6;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+/* Center testimonial blocks and their content */
+.testimonial {
+  margin: 0 auto 24px auto;
+  padding: 18px 16px;
+  background: #e6f7fa;
+  border-radius: 8px;
+  max-width: 500px;
+  text-align: center;
+}
+
+.testimonial p {
+  margin: 0 0 10px 0;
+  color: #11525c;
+  font-size: 1.1em;
+}
+
+.testimonial cite {
+  color: #159ca6;
+  font-style: normal;
+  font-size: 1em;
 }
 
 /* Responsive: stack columns on small screens */
