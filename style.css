@@ -51,3 +51,20 @@ body {
   background-color: #159ca6; /* slightly darker teal on hover */
   cursor: pointer;
 }
+
+/* Simple site header style */
+.site-header {
+  background-color: #159ca6; /* teal from palette */
+  color: #ffffff;
+  text-align: center;
+  padding: 18px 0;
+}
+
+/* Site name styling */
+.site-header h2 {
+  margin: 0;
+  font-size: 2em;
+  letter-spacing: 2px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-weight: bold;
+}
